@@ -175,13 +175,13 @@ const Footer = () => {
                       href="/review"
                       className="text-gray-400 py-1 block hover:text-yellow-500"
                     >
-                      Customer Reviews
+                      Student Reviews
                     </a>
                     <a
                       href="/hire"
                       className="text-gray-400 py-1 block hover:text-yellow-500"
                     >
-                      We are Hiring!
+                      Career!
                     </a>
                   </div>
                 </div>
@@ -195,13 +195,13 @@ const Footer = () => {
                       href={"/wr"}
                       className="text-gray-400 py-1 block hover:text-yellow-500"
                     >
-                      Warranty & Refunds
+                      works in alumi
                     </a>
                     <a
                       href="/shipping"
                       className="text-gray-400 py-1 block hover:text-yellow-500"
                     >
-                      Shipping Policy
+                      Student Policy
                     </a>
                     <a
                       href="/terms"
@@ -226,22 +226,22 @@ const Footer = () => {
                   </h6>
                   <div className="text-[16px] ">
                     <a
-                      href="/track"
+                      href="/"
                       className="text-gray-400 py-1  block hover:text-yellow-500"
                     >
-                      Track My Order
+                      My portal
                     </a>
                     <a
-                      href="/help"
+                      href="/"
                       className="text-gray-400 py-1 block hover:text-yellow-500"
                     >
                       Help Center
                     </a>
                     <a
-                      href="/return"
+                      href="/"
                       className="text-gray-400 py-1 block hover:text-yellow-500"
                     >
-                      Returns & Claims
+                      Gurdian List
                     </a>
                     <button className="mt-3 text-[6px] sm:text-[18px]">
                       <a
@@ -276,7 +276,6 @@ const Footer = () => {
       <div className="md:hidden bg-gray-800 text-white">
         <div className="flex justify-center items-left ">
           <div className="flex flex-col w-full">
-            {/* REFACTORY FOR BUSINESS */}
             <button className="group focus:outline-none" onClick={toggleMenu1}>
               <div className="flex items-center justify-between h-12 px-3 font-semibold text-left">
                 <span className="truncate">School details</span>
