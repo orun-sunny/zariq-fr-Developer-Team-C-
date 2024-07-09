@@ -132,7 +132,7 @@ const Navbar = () => {
                   </div>
                   <div className="relative group py-2">
                     <Link
-                      to="/category/Samsung"
+                      to="/"
                       className="hover:bg-gray-200 px-4 py-2 rounded-lg transition duration-300"
                     >
                       Admission
@@ -153,13 +153,13 @@ const Navbar = () => {
                     </div>
                   </div>
                   <Link
-                    to="/category/Macbook"
+                    to="/"
                     className="hover:bg-gray-200 px-4 py-2 rounded-lg transition duration-300"
                   >
                     Contact us
                   </Link>
                   <Link
-                    to="/category/Laptop"
+                    to="/"
                     className="hover:bg-gray-200 px-4 py-2 rounded-lg transition duration-300"
                   >
                     Achievements
@@ -257,7 +257,7 @@ const Navbar = () => {
           {/* Cart and User Icons (Right) */}
           <div className="hidden md:flex items-center space-x-4">
             <div className="relative">
-              <Link to={`/cart`}>
+              <Link to={`/`}>
                 <FaShoppingCart className="text-gray-800 text-2xl cursor-pointer" />
               </Link>
 
@@ -308,13 +308,13 @@ const Navbar = () => {
               Mission Vision
             </Link>
             <Link
-              to="/category/Macbook"
+              to="/"
               className="hover:bg-gray-200 px-4 py-2 rounded-lg transition duration-300 block"
             >
               Admission
             </Link>
             <Link
-              to="/category/Laptop"
+              to="/"
               className="hover:bg-gray-200 px-4 py-2 rounded-lg transition duration-300 block"
             >
               Contact us
